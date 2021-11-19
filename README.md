@@ -5,6 +5,3 @@ by Sundog Education
 **Install library**  
 In this course you need to install SurpriseLib from scikit  
 ``` pip install scikit-surprise ```
-
-**Movielens dataset**  
-Download the movielens datasets for course project. Download [here](https://dw9ne0o7jcasn.cloudfront.net/RecSys/ml-latest-small.zip)
