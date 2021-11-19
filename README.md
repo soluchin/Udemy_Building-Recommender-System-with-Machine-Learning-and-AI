@@ -21,11 +21,17 @@ In this course you need to install SurpriseLib from scikit
 12. hybrid solution
 
 ## What is a Recommender System
-* A system that predicts ratings or preferences a user might give to an item. 
-* Recommending things to people based on their past behavior and the behavior of other people.
+* a system that predicts ratings or preferences a user might give to an item. 
+* recommending things to people based on their past behavior and the behavior of other people.
 * recommending stuff to people based on their pregnancies that we learn over time.
-* Often there are sorted and presented as **"top-N" recommendations**.
-* **Also known as** recommender engines, recommendation systems, recommendation platforms.
+* often there are sorted and presented as **"top-N" recommendations**.
+* **also known as** recommender engines, recommendation systems, recommendation platforms.
 * **can used to:** recommending items, content, music, movies, games, search results, people etc.
 
 &nbsp;&nbsp;&nbsp;Recommender system can find relationships between users and between items just based on actions. Usually there's no human curation involved, at all. It can use historical patterns to show people stuff they want before they even know they want it.
+
+## How do Recommender System Works?
+* comes down to understanding user
+* this system start with some sort of data about every user that it can use to figure out user's individual tastes and interests
+* then, merge data about one user with the collective behaviour of everyone else like that user
+* and recommend stuff that user might like
