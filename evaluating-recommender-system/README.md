@@ -1,4 +1,6 @@
 # Evaluating Recommender System
 System recommendation is difficult to measure how good they are. It's hard to say whether a person considers the recommendation to be good or not. Espesially if you're develop your system offline. But, there is some algortihm that you can use to evaluate machine learning model like **train/test split** and **K-fold validation**. You can used it too for evaluation the system recommendation.
 
-## Train/test Split
+## Train/test Split & K-fold Validation
+&nbsp;&nbsp;&nbsp;You can measure you system ability to predict how people rated thing in the past. You start to split data into train-dataset and test-dataset. Make the train-dataset bigger than test-dataset, usually train-dataset up to 75-90% of all of your full dataset and test-dataset get the rest of it. So you train your model using only the train-dataset. Once it's trained, you can ask the model to make prediction about how a new user rate some item they've never seen before. And we can measure how close it came by compare the model prediction with real test-dataset.  
+&nbsp;&nbsp;&nbsp;It's possible to improve that one using k-fold cross validation technique. With the same idea as train/test split, but instead of a single train-set this method create many randomly assigned train-set it so called fold. And each individual fold is used to train your model independently, and then we measure the result accuracy against our test-set. We end it up with a score of how accuracy each fold and we can average it all.
