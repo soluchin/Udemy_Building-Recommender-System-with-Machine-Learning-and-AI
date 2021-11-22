@@ -8,7 +8,7 @@ In this course you need to install SurpriseLib from scikit
 
 ## Course Overview
 1. intro to python
-2. evaluating recommender system
+2. [evaluating recommender system](https://github.com/soluchin/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/tree/main/evaluating-recommender-system)
 3. building a recommendation engine
 4. content-based filtering
 5. neighborhood-based collaborative filtering
