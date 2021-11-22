@@ -1,1 +1,2 @@
 # Evaluating Recommender System
+System recommendation is difficult to measure how good they are. It's hard to say whether a person considers the recommendation to be good or not. Espesially if you're develop your system offline. But, there is some algortihm that you can use to evaluate machine learning model like train/test split and K-fold validation. You can used it too for evaluation the system recommendation
