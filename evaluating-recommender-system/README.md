@@ -12,3 +12,5 @@ System recommendation is difficult to measure how good they are. It's hard to sa
 **Accuracy isn't really measuring what we want recommender system to do. Could we care mostly about what out system thinks about the best movie for user to see and that's a different problem from this metrics.**  
 </br>
 &nbsp;&nbsp;&nbsp;So, here we talk about how to actually come up with an accuracy metrics when testing recommendation system. There is a couple different way to do it. The easiest method is **Mean Absolute Error (MAE)**. This way have mathematic equation like <img src="https://render.githubusercontent.com/render/math?math=\frac{\sum^{n}_{i=1}|y_i - x_i|}{n}">. The meaning of the equation is average absolute values of each error in rating predictions. The other equation is **Root Mean Square Error (RMSE)**. <img src="https://render.githubusercontent.com/render/math?math=\sqrt{\frac{\sum^{n}_{i=1}(y_i - x_i)^2}{n}}">. With this way we take the square root of whole averaged squared error. Everything you need is the lowest score, not the highest. It's mean every lowest score you get the better model.
+
+## TOP-N Hit Rate
