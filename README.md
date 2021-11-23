@@ -7,6 +7,7 @@ In this course you need to install SurpriseLib from scikit
 ``` pip install scikit-surprise ```
 
 ## Course Overview
+1. What is Recommender system
 1. intro to python
 2. [evaluating recommender system](https://github.com/soluchin/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/tree/main/evaluating-recommender-system)
 3. building a recommendation engine
