@@ -9,9 +9,4 @@ System recommendation is difficult to measure how good they are. It's hard to sa
 <img src="https://github.com/soluchin/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/blob/main/Materials/Image-materials/train%20test%20split.jpg" alt="image" height=400>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/soluchin/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/blob/main/Materials/Image-materials/k%20fold%20validation.jpg" alt="image" height=400>
 
 ## Accuracy Metrics (RMSE, MAE)
-&nbsp;&nbsp;&nbsp;Now, we will talk about how to actually come up with an accuracy metrics when testing recommendation system. There is a couple different way to do it. The easiest method is **Mean Absolute Error (MAE)**. This way have mathematic equation like <img src="https://render.githubusercontent.com/render/math?math=\frac{\sum^{n}_{i=1}|y_i - x_i|}{n}">. The meaning of the equation is average absolute values of each error in rating predictions. The highest your MAE score it's mean better model.
-
-
-
-
- <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+&nbsp;&nbsp;&nbsp;Now, we will talk about how to actually come up with an accuracy metrics when testing recommendation system. There is a couple different way to do it. The easiest method is **Mean Absolute Error (MAE)**. This way have mathematic equation like <img src="https://render.githubusercontent.com/render/math?math=\frac{\sum^{n}_{i=1}|y_i - x_i|}{n}">. The meaning of the equation is average absolute values of each error in rating predictions. Everything you need from this is the lowest score, not the highest. It's mean every lowest score you get the better model.
