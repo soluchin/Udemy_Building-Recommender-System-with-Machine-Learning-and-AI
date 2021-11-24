@@ -21,4 +21,4 @@ System recommendation is difficult to measure how good they are. It's hard to sa
 &nbsp;&nbsp;&nbsp;What we do is compute the top-N recommendations for each user in the train-set and intentionally removed one of those item from that user's training-set. We then test our system abillity to recommend one item was left out before. So we measure our abillity to recommend an item in the top-N list for each user that was left out from the training data. That's why we call it leave-one-out.  
 </br>
 **Leave-one-out cross-validation flow:**  
-<img src="https://github.com/soluchin/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/blob/main/Materials/Image-materials/leave%20one%20out.png" alt="image" height=500>
+<img src="https://github.com/soluchin/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/blob/main/Materials/Image-materials/leave%20one%20out.png" alt="image" height=400>
