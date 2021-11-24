@@ -22,3 +22,6 @@ System recommendation is difficult to measure how good they are. It's hard to sa
 </br>
 **Leave-one-out cross-validation flow:**  
 <img src="https://github.com/soluchin/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/blob/main/Materials/Image-materials/leave%20one%20out.png" alt="image" height=400>
+
+## Coverage, Diversity, and Novelity
+### Coverage
