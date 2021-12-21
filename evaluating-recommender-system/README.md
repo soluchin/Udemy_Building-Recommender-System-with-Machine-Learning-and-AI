@@ -23,8 +23,16 @@ System recommendation is difficult to measure how good they are. It's hard to sa
 **Leave-one-out cross-validation flow:**  
 <img src="https://github.com/soluchin/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/blob/main/Materials/Image-materials/leave%20one%20out.png" alt="image" height=400>
 
-## Coverage, Diversity, and Novelity
+## Measures
 ### Coverage
 &nbsp;&nbsp;&nbsp;Coverage is the percent of items in the training data the model is able to recommend on a test set. In this example, the popularity recommender has only 0.05% coverage, since it only ever recommends 10 items. The random recommender has nearly 100% coverage as expected. Surprisingly, the collaborative filter is only able to recommend 8.42% of the items it was trained on.
 ### Diversity
-&nbsp;&nbsp;&nbsp;Diversity in recommendation systems is used to avoid the overﬁtting prob-lem as well as excellent skill, which provides a recommendation based onincreasing the quality of user experiences. Diversity is inclusion of diﬀerent types of item set in recommendation for user which is diﬀerent from their past preferences. Diversityis calculated using (1-S), where s=avg similarity betweet recommendation pairs.
+&nbsp;&nbsp;&nbsp;Diversity in recommendation systems is used to avoid the overﬁtting prob-lem as well as excellent skill, which provides a recommendation based onincreasing the quality of user experiences. Diversity is inclusion of diﬀerent types of item set in recommendation for user which is diﬀerent from their past preferences. Diversityis calculated using <img src="https://render.githubusercontent.com/render/math?math=$(1-S)$">, where s=avg similarity betweet recommendation pairs.
+### Novelty 
+&nbsp;&nbsp;&nbsp;Novelty is measure of how popular the items are that you're recommending. Popular items usually popular for a reason. They are enjoyable by a large segment of population. So you would expect them to be good recommendation  for a large segment of population who hasn't know them yet
+### Churn
+&nbsp;&nbsp;&nbsp;How often do your recommendation for user change? Churn can measure how sensitive your recommendation system is to new user behavior. If a user rates a new movie, does that subtantially change their recommendations? If so, your churn scores will be high.
+### Responsiveness
+&nbsp;&nbsp;&nbsp;How quickly does new user behavior influence your recommendations? If a user rates a movie, does it affect your recommendation immediately or does only affect your recommendation in a next day? More responsiveness would always seems to be a good thing, but in the world of business you have to decide how responsive your recommendation system. You have decide it because recommendation system that have instantaneous responsiveness are complex, difficult to maintain, and expensive to build. 
+
+## Online A/B Test
