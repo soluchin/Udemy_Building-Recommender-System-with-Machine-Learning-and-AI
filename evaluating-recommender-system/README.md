@@ -25,3 +25,6 @@ System recommendation is difficult to measure how good they are. It's hard to sa
 
 ## Coverage, Diversity, and Novelity
 ### Coverage
+&nbsp;&nbsp;&nbsp;Coverage is the percent of items in the training data the model is able to recommend on a test set. In this example, the popularity recommender has only 0.05% coverage, since it only ever recommends 10 items. The random recommender has nearly 100% coverage as expected. Surprisingly, the collaborative filter is only able to recommend 8.42% of the items it was trained on.
+### Diversity
+&nbsp;&nbsp;&nbsp;Diversity in recommendation systems is used to avoid the overﬁtting prob-lem as well as excellent skill, which provides a recommendation based onincreasing the quality of user experiences. Diversity is inclusion of diﬀerent types of item set in recommendation for user which is diﬀerent from their past preferences. Diversityis calculated using (1-S), where s=avg similarity betweet recommendation pairs.
