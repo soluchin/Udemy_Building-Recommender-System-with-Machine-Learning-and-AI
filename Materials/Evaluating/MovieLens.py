@@ -9,12 +9,13 @@ from surprise import Reader
 from collections import defaultdict
 import numpy as np
 
+
 class MovieLens:
 
     movieID_to_name = {}
     name_to_movieID = {}
-    ratingsPath = '../ml-latest-small/ratings.csv'
-    moviesPath = '../ml-latest-small/movies.csv'
+    ratingsPath = 'D:/git/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/Datasets/ratings.csv'
+    moviesPath = 'D:/git/Udemy_Building-Recommender-System-with-Machine-Learning-and-AI/Datasets/movies.csv'
     
     def loadMovieLensLatestSmall(self):
 
